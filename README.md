@@ -18,6 +18,7 @@ Step 4 : Do repeat Step 2 and Step 3 until no new state present in DFA transitio
 
 Step 5 : Mark the states of DFA which contains final state of NFA as final states of DFA.
 # PROGRAM
+```
 // C Program to illustrate how to convert e-nfa to DFA
 #include <stdio.h>
 #include <stdlib.h>
@@ -284,6 +285,7 @@ char *NFA_TABLE[states][symbols + 1];
  Display_DFA(last_index, dfa_states, DFA_TABLE);
  return 0;
 }
+```
 # OUTPUT 
 ![Screenshot 2024-03-27 083259](https://github.com/Bakkiyalakshmiethiraj/Ex-1-NFA-to-DFA/assets/144870983/009519e9-fad9-41de-9f49-0ecca4fecd8d)
 
